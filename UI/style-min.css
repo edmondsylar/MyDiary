@@ -297,3 +297,13 @@ textarea:focus, input:focus{
     border: 1px solid rgb(232, 64, 65);
     /*box-shadow: 1px 1px 1px 1px gray;*/   
 }
+
+.prof .active{
+    background: inherit;
+    border-bottom: 3px solid rgb(232, 64, 65);
+}
+
+.sections select{
+    width:200px;
+    height: 25px;
+}
