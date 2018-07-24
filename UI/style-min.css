@@ -1,0 +1,231 @@
+body {
+    font-family: "Lato", sans-serif;
+    margin: 0;
+    background-color: rgb(246, 246, 246);
+}
+
+.sidenav {
+    height: 100%;
+    width: 250px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(66, 68, 81);
+    overflow-x: hidden;
+    padding-top: 20px;
+    position: fixed;
+}
+
+.sidenav a {
+    padding: 15px 20px 15px 25px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #818181;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+    background-color: rgb(66, 117, 212);
+}
+
+.main {
+    margin-left: 300px; 
+    margin-top: 30px;
+    font-size: 28px;  
+    border-radius: 10px;
+    width: 75%;
+    height: 100%;
+    border: 1px solid whitesmoke;
+    box-shadow: 3px 3px 10px 5px gray;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+.sidenav .user{
+    color: white;
+    margin-bottom: 10px;
+    font-size: 20px; 
+    margin-left: 10px;
+    width: 100%;
+}
+
+.sidenav input[type=text]{
+    width: 80%;
+    margin-top: 10px;
+    position: relative;
+    margin-left: 5px;
+    border-radius: 30px;
+    border: none;
+    margin-bottom: 15px; 
+    height: 30px; 
+    padding-left: 35px;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+}
+
+.topnav{
+    overflow: hidden;
+    background-color: rgb(243, 44, 18);
+    margin: 0;
+    width: 100%;
+    height: 65px;
+}
+
+.topnav .dropdown {
+    float: right;
+    position: relative;
+    display: inline;
+}
+
+.topnav .dropdown .drop-cont{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+ .topnav .dropdown .drop-cont a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.topnav .dropdown .drop-cont a:hover {
+    background-color: #f1f1f1
+}
+
+.dropdown:hover .drop-cont {
+    display: block;
+    position: fixed;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: rgb(66, 117, 212);
+    color: black;
+}   
+
+.dropbtn {
+    padding: 15px 20px;
+    border: none;
+    background-color: inherit;
+    font-size: 17px;
+    margin-top: 7px;
+    color: whitesmoke;
+    font-weight: bold;
+    height: 100%;
+}
+
+.entry h3{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.search i{
+    position: absolute;
+    left: 0;
+    top: 53.5px;
+    padding: 8px 9px;
+
+
+}
+
+.active{
+    background-color: rgb(66, 117, 212);
+    color: white;
+}
+
+.main-div1{
+    float: left;
+}
+
+.main-div2{
+    float: left;
+    position: initial;
+}
+
+.entry-entity{
+    margin-top: 0px;
+    margin-left: 5px;
+
+}
+
+.entry-entity input[type=text]{
+    font-weight: bold;
+    background: inherit;
+    width: 80%;
+    height: 40px;
+    margin-left: 30px;
+    border: none;
+    padding-left: 5px;
+    padding-top: 0; 
+    border-bottom: 2px solid rgb(66, 117, 212);
+    
+}
+
+.entry-entity h5{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+}
+
+.description-content i{
+    padding-bottom: px;
+    margin-top: 0px;
+    color: black;
+}
+
+.description-content textarea {
+    margin-top: 20px;
+    margin-left: 30px;
+    border: none;
+    border-bottom: 2px solid rgb(66, 117, 212);
+    border-left: 2px solid rgb(66, 117, 212);
+    background: inherit;
+}
+
+.btn-1-2{
+    margin-left: 30px;
+    border: none;
+    width: 200px;
+    margin-bottom: 20px;
+    padding: 16px 16px 16px 16px; 
+    border-radius: 30px;
+    background: linear-gradient(to bottom right, rgb(66, 117, 212),  rgb(250, 0, 0));
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+
+
+}
+
+.btn-1-3{
+    margin-left: 30px;
+    border: none;
+    width: 200px;
+    margin-bottom: 20px;
+    padding: 16px 16px 16px 16px; 
+    border-radius: 30px;
+    background: linear-gradient(to bottom left, rgb(66, 117, 212),  rgb(250, 0, 0));
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+
+
+}
+
+.btn-1-3:hover{
+    box-shadow: 3px 3px 5px 3px rgb(211, 211, 211);
+    /*z-index: inherit;*/
+}
+
+.btn-1-2:hover{
+    box-shadow: 3px 3px 5px 3px rgb(210, 208, 208);
+    /*z-index: inherit;*/
+}
