@@ -1,3 +1,5 @@
+@font-face { font-family: proxima; src: url('proxima-nova-soft-bold.otf');}
+
 body {
     font-family: "Lato", sans-serif;
     margin: 0;
@@ -228,4 +230,70 @@ textarea:focus, input:focus{
 .btn-1-2:hover{
     box-shadow: 3px 3px 5px 3px rgb(210, 208, 208);
     /*z-index: inherit;*/
+}
+
+.prof{
+    margin-left: 270px;
+}
+
+.prof h1{
+    font-family: proxima;
+}
+
+.prof ul{
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+    overflow: hidden;
+    border-bottom: 0.5px solid gray;
+}
+.prof li{
+    display: inline;
+    float: left;
+
+}
+
+.prof li a {
+    display: block;
+    padding-bottom: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(232, 64, 65);
+
+}
+
+.prof li a:hover{
+    border-bottom: 3px solid rgb(232, 64, 65);
+
+}
+
+.sections{
+    margin-top: 50px;
+}
+
+.sections input{
+    margin-bottom: 20px;
+    width: 40%;
+    margin-left: 20px;
+    padding-left: 10px;
+    height: 25px;
+    border: none;
+    background: inherit;;
+}
+
+.sections button{
+    color: rgb(232, 64, 65);
+    width: 65px;
+    border-radius: 20px;
+    border: none;
+    height: 30px;
+    background: inherit;
+    border: 0.5px solid rgb(232, 64, 65);
+}
+
+.sections button:hover{
+    border: 1px solid rgb(232, 64, 65);
+    /*box-shadow: 1px 1px 1px 1px gray;*/   
 }
