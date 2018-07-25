@@ -15,7 +15,6 @@
 
   		<a href="home.html"><i class="fa fa-asterisk"></i> &nbsp; New Entry</a>
   		<a href="all.html" ><i class="fa fa-tasks"></i> &nbsp; All Entrise</a>
-		  <a href="star.html"><i class="fa fa-star"></i> &nbsp; Stared Entries</a>
 		  <a href="profile.html"><i class="fa fa-user-circle"></i>&nbsp; Profile</a>
   		<a href="settings.html" class="active"><i class="fa fa-wrench"></i> &nbsp; Settings </a>
 </div>
@@ -31,15 +30,89 @@
 		</div>
 </div>
 
-<div class="main">
-	<div class="entry">
-        <h3><i class="fa fa-wrench"></i>&nbsp; Settings | <i class="fa fa-user-circle"></i> username </h3>
-        
-	
+<div class="prof">
+	<div class="all-header">
+		<div class="header-cont">
 
-	</div>
+		<div class="upper-sec">
+				<i class="fa fa-bell"></i>&nbsp;Notifications<br>
+				<text>Configure Notifications <i class="fa fa-bell"></i></text>
+
+				</div>
+
+			<div class="upper-sec-2">
+				<button><i class="fa fa-plus-circle"></i> Notifier</button>
+
+				</div>
+		
+
+		</div>
+		<div class="table-data">
+				<table>
+					<tr>
+						<td>
+						Description<br>
+						<select>
+							<option value="None">None</option>
+							<option value="None">Custom</option>
+							<option value="None">View Templates</option>
+
+						</select>
 
 
+						</td> <!--above is table data one-->
+						<td>
+							Category<br>
+						<select>
+							<option value="None">Select</option>
+							<option value="None">Reminder</option>
+							<option value="None">Alert</option>
+							<option value="None">Custom</option>
+							<option value="None">View Template</option>
+
+
+						</select>
+
+						</td><!--above is table data one-->
+						<td>
+						Comment<br>
+							<i class="fa fa-search"></i><input type="text" placeholder="Write Comment">
+							
+
+						</select>
+
+						</td><!--above is table data one-->
+
+						<td>
+							Search<br>
+							<i class="fa fa-search"></i><input type="text" placeholder="Search Specific notification">
+							
+
+						</td>
+
+					</tr>
+				</table>
+		</div>
+		</div>
+
+		<div class="page-sorter">
+		<table>
+			<tr>
+				<td>Always when Active</td>
+				<td><input type="checkbox"> Get notification from everyone</td>
+				<td><input type="checkbox"> Only when marked <i class="fa fa-star-o"></i></td>
+				<hr>
+			</tr>
+		</table>
+		<br>
+		<text class="mail">Recieve By Email</text><label class="switch"><input type="checkbox"><span class="slider"></span></label><br><br>
+
+		<text class="mail">On your Phone</text><label class="switch"><input type="checkbox"><span class="slider"></span></label><br><br>
+
+		<text class="mail">On Your Desktop</text><label class="switch"><input type="checkbox"><span class="slider"></span></label><br>
+
+
+		</div>
 
 </div>
 
